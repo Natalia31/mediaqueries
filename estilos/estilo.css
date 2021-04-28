@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+}
+.amarillo{
+    background-color: gold;
+    height: 15rem;
+}
+.azul{
+    background-color: blue;
+    height: 10rem;
+}
+.rojo{
+    background-color: red;
+    height: 5rem;
+}
+.banderacolombia{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+/*comienza la bandera de argentina*/
+
+.azulclaro{
+    background-color: lightblue;
+    height: 15rem;
+}
+.blanco{
+    background-color: white;
+    height: 10rem;
+}
+.banderaargentina{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+/*mediaqueries*/
+
+@media screen and (max-width: 800px) and (min-width: 50px){
+    .banderacolombia{
+        display: none;
+    }
+}
+@media screen and (max-width: 2500px) and (min-width: 799){
+    .banderaargentina{
+        display: none;
+    } 
+}
